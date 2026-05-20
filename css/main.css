@@ -21,7 +21,7 @@
   --dark:       #1A1A2E;
   --text:       #2C3E50;
   --text-light: #5D6D7E;
-  --bg-blue:    #EAF4F9;   /* light-blue page background */
+  --bg-blue:    #D6E8F2;   /* light-blue page background (deepened) */
 
   /* Typography */
   --font-head: 'Montserrat', 'Arial Black', sans-serif;
@@ -41,7 +41,16 @@
 }
 
 html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); color: var(--text); background: var(--bg-blue); line-height: 1.6; overflow-x: hidden; }
+body { font-family: var(--font-body); color: var(--text); background: var(--bg-blue); line-height: 1.6; overflow-x: hidden; position: relative; }
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('../images/10000-islands-during-sunset.jpg') center/cover;
+  opacity: 0.14;
+  z-index: -1;
+  pointer-events: none;
+}
 img { max-width: 100%; height: auto; display: block; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
