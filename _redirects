@@ -1,0 +1,15 @@
+# Force extensionless canonical URLs (added by fix_canonicals_and_urls.py)
+
+/10000_islands_excursion.html /10000_islands_excursion 301
+/about_us.html /about_us 301
+/boat_assisted.html /boat_assisted 301
+/contact.html /contact 301
+/directions.html /directions 301
+/dolphin_birding_tour.html /dolphin_birding_tour 301
+/family_fun_tour.html /family_fun_tour 301
+/faq.html /faq 301
+/includes.html /includes 301
+/manatee_tour.html /manatee_tour 301
+/photography.html /photography 301
+/photos.html /photos 301
+/privacy.html /privacy 301
