@@ -14,7 +14,7 @@
   --accent-lt:  #2ECC71;
   --gold:       #F39C12;   /* warm gold for highlights */
   --white:      #FFFFFF;
-  --bg-tint:    #EAF2F8;   /* very light ocean-blue-tinted background (replaces white on sections/cards) */
+  --bg-tint:    #BFD8E8;   /* light muted ocean-blue background (replaces white on sections/cards) */
   --offwhite:   #F8F9FA;
   --light-gray: #E9ECEF;
   --mid-gray:   #6C757D;
@@ -22,7 +22,7 @@
   --dark:       #1A1A2E;
   --text:       #2C3E50;
   --text-light: #5D6D7E;
-  --bg-blue:    #D6E8F2;   /* light-blue page background (deepened) */
+  --bg-blue:    #BFD8E8;   /* light-blue page background (deepened) */
 
   /* Typography */
   --font-head: 'Montserrat', 'Arial Black', sans-serif;
