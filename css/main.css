@@ -15,7 +15,7 @@
   --gold:       #F39C12;   /* warm gold for highlights */
   --white:      #FFFFFF;
   --bg-tint:    #BFD8E8;   /* light muted ocean-blue background (replaces white on sections/cards) */
-  --offwhite:   #F8F9FA;
+  --offwhite:   #D6E4ED;
   --light-gray: #E9ECEF;
   --mid-gray:   #6C757D;
   --dark-gray:  #343A40;
@@ -588,4 +588,4 @@ button { font-family: var(--font-body); cursor: pointer; border: none; }
   .topbar-right { display: none; }
   .hero-quick-links { display: none; }
   .photo-grid { grid-template-columns: repeat(2,1fr); }
-  .guide-grid { grid-template-col
+  .guide-grid { grid-template-col      
