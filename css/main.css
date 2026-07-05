@@ -517,7 +517,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; }
 .guide-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 28px; margin-top: 40px; }
 .guide-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--light-gray); }
 .guide-img { height: 220px; background: var(--primary); overflow: hidden; }
-.guide-img img { width: 100%; height: 100%; object-fit: cover; }
+.guide-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .guide-body { padding: 20px; }
 .guide-body h3 { font-family: var(--font-head); font-size: 17px; font-weight: 700; color: var(--dark); margin-bottom: 4px; }
 .guide-title { font-size: 12px; font-weight: 600; color: var(--primary); letter-spacing: 0.08em; text-transform: uppercase; font-family: var(--font-head); margin-bottom: 10px; }
