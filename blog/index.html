@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Marco Island Travel Tips, Wildlife &amp; Shelling | Marco Island Boat Tours</title>
+<meta name="description" content="Local guides to Marco Island and the Ten Thousand Islands — beaches, shelling, dolphins, wildlife, and trip-planning tips from Florida Master Naturalist guides.">
+<link rel="canonical" href="https://www.marcoisland-boattours.com/blog/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Marco Island Boat Tours — Blog">
+<meta property="og:description" content="Local guides to Marco Island and the Ten Thousand Islands.">
+<meta property="og:url" content="https://www.marcoisland-boattours.com/blog/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --primary:#1B6CA8;--primary-dk:#0B2545;--primary-lt:#2E86C1;
+  --accent:#27AE60;--accent-lt:#2ECC71;--gold:#F39C12;
+  --bg-blue:#BFD8E8;--offwhite:#D6E4ED;--card:#eef6fb;
+  --text:#243b4a;--text-light:#5D6D7E;--line:#c3d8e6;
+  --font-head:'Montserrat',sans-serif;--font-body:'Open Sans',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);color:var(--text);background:var(--bg-blue);line-height:1.7;font-size:17px;overflow-x:hidden;position:relative}
+body::before{content:'';position:fixed;inset:0;background:url('/images/10000-islands-during-sunset.jpg') center/cover;opacity:.12;z-index:-1;pointer-events:none}
+a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
+.topbar{background:var(--primary-dk);color:rgba(255,255,255,.9);font-family:var(--font-head);font-size:.78rem;font-weight:500}
+.topbar .in{max-width:1180px;margin:0 auto;padding:.45rem 1.5rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.4rem}
+.topbar a{color:rgba(255,255,255,.9)}.topbar a:hover{color:var(--accent-lt)}
+.topbar .in>div{display:flex;gap:1.2rem;flex-wrap:wrap;align-items:center}
+@media(max-width:620px){.topbar .tb-hide{display:none}}
+nav.site{background:var(--offwhite);box-shadow:0 2px 12px rgba(11,37,69,.12);position:sticky;top:0;z-index:100}
+nav.site .in{max-width:1180px;margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;min-height:70px;gap:1rem}
+.logo{display:flex;align-items:center;gap:.6rem}.logo img{height:46px;width:auto}
+.logo .words{font-family:var(--font-head);font-weight:800;color:var(--primary-dk);font-size:1rem;line-height:1.1}
+.logo .words small{display:block;font-weight:600;font-size:.62rem;letter-spacing:.02em;color:var(--primary);text-transform:uppercase;margin-top:2px}
+.navlinks{display:flex;align-items:center;gap:.2rem;flex-wrap:wrap}
+.navlinks a{font-family:var(--font-head);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.02em;color:var(--primary-dk);padding:.5rem .6rem;border-radius:5px}
+.navlinks a:hover{color:var(--primary)}
+.navlinks a.book{background:var(--gold);color:#fff;padding:.55rem 1rem;margin-left:.3rem}
+.navtoggle{display:none;background:none;border:0;font-size:1.5rem;color:var(--primary-dk);cursor:pointer}
+.mobile{display:none;flex-direction:column;background:var(--primary-dk);padding:.6rem 1.5rem 1.2rem}
+.mobile.open{display:flex}
+.mobile a{color:#fff;font-family:var(--font-head);font-weight:600;text-transform:uppercase;font-size:.85rem;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.12)}
+@media(max-width:920px){.navlinks{display:none}.navtoggle{display:block}}
+.blog-hero{background:linear-gradient(135deg,#0B2545 0%,#1B6CA8 60%,#2E86C1 100%);color:#fff;text-align:center;padding:3.4rem 1.4rem}
+.blog-hero h1{font-family:var(--font-head);font-weight:800;font-size:clamp(1.8rem,4vw,2.6rem)}
+.blog-hero p{color:rgba(255,255,255,.9);max-width:640px;margin:.8rem auto 0}
+.grid{max-width:1080px;margin:2.4rem auto;padding:0 1.3rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 8px 30px rgba(11,37,69,.1);transition:transform .2s,box-shadow .2s}
+.pc:hover{transform:translateY(-4px);box-shadow:0 14px 40px rgba(11,37,69,.18)}
+.pc .thumb{height:170px;background:linear-gradient(160deg,#0B2545,#2E86C1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.92);font-family:var(--font-head);font-weight:700;letter-spacing:.05em;text-transform:uppercase;font-size:.85rem}
+.pc .body{padding:1.4rem;display:flex;flex-direction:column;flex:1}
+.pc .tag{font-family:var(--font-head);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;color:var(--primary);font-weight:700}
+.pc h2{font-family:var(--font-head);color:var(--primary-dk);font-size:1.2rem;margin:.5rem 0 .6rem;line-height:1.3}
+.pc p{color:var(--text-light);font-size:.95rem;flex:1}
+.pc .read{margin-top:1rem;font-family:var(--font-head);font-weight:700;text-transform:uppercase;font-size:.8rem;color:var(--gold)}
+footer{background:var(--primary-dk);color:rgba(255,255,255,.82);text-align:center;padding:2.5rem 1.5rem;font-size:.9rem}
+footer .fn{font-family:var(--font-head);font-weight:800;color:#fff;font-size:1.1rem}
+footer a{color:var(--accent-lt)}
+footer .div{font-size:.78rem;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:.2rem}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="in">
+  <div><a href="tel:2396950000">📞 (239) 695-0000</a><a class="tb-hide" href="mailto:MarcoIslandboattours@gmail.com">MarcoIslandboattours@gmail.com</a></div>
+  <div><span class="tb-hide">Goodland, FL — East of Marco Island</span></div>
+</div></div>
+<nav class="site"><div class="in">
+  <a class="logo" href="/"><img src="/images/logo.png" alt="Marco Island Boat Tours"><span class="words">Marco Island Boat Tours<small>A Division of Everglades Area Tours</small></span></a>
+  <div class="navlinks">
+    <a href="/#tours">Tours</a><a href="/about_us">About</a><a href="/#pricing">Pricing</a>
+    <a href="/faq">FAQ</a><a href="/blog">Blog</a><a href="/contact">Contact</a>
+    <a class="book" href="https://fareharbor.com/embeds/book/everglades-boattours/?full-items=yes&flow=336425" target="_blank" rel="noopener">Book Now</a>
+  </div>
+  <button class="navtoggle" id="navtoggle" aria-label="Menu">☰</button>
+</div></nav>
+<div class="mobile" id="mobile">
+  <a href="/#tours">Tours</a><a href="/about_us">About</a><a href="/#pricing">Pricing</a>
+  <a href="/faq">FAQ</a><a href="/blog">Blog</a><a href="/contact">Contact</a>
+  <a href="https://fareharbor.com/embeds/book/everglades-boattours/?full-items=yes&flow=336425" target="_blank" rel="noopener">Book Now</a>
+</div>
+
+<header class="blog-hero">
+  <h1>The Marco Island Boat Tours Blog</h1>
+  <p>Local guides to Marco Island and the Ten Thousand Islands — beaches, shelling, dolphins, and trip-planning tips from our naturalist crew.</p>
+</header>
+
+<section class="grid">
+  <a class="pc" href="/blog/things-to-do-in-marco-island/">
+    <div class="thumb">Marco Island Guide</div>
+    <div class="body">
+      <span class="tag">Travel Guide</span>
+      <h2>Things to Do in Marco Island, Florida (From a Local Naturalist Crew)</h2>
+      <p>Powder-sand beaches, the boat-only shelling islands, wild dolphins, the Ten Thousand Islands, and Cape Romano — here's how a crew that's guided these waters for 25+ years spends a few days.</p>
+      <span class="read">Read more →</span>
+    </div>
+  </a>
+</section>
+
+<footer>
+  <p class="fn">Marco Island Boat Tours</p>
+  <p class="div">A Division of Everglades Area Tours</p>
+  <p style="margin-top:.6rem;">750 Palm Point Dr, Goodland, FL 34140 · <a href="tel:2396950000">(239) 695-0000</a></p>
+  <p style="margin-top:.7rem;"><a href="/">Home</a> · <a href="/#tours">Tours</a> · <a href="/#pricing">Pricing</a> · <a href="/contact">Contact</a></p>
+</footer>
+<script>
+  var t=document.getElementById('navtoggle'),m=document.getElementById('mobile');
+  if(t&&m){t.addEventListener('click',function(){m.classList.toggle('open')});}
+</script>
+</body>
+</html>
