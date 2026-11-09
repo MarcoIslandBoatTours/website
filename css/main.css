@@ -588,4 +588,5 @@ button { font-family: var(--font-body); cursor: pointer; border: none; }
   .topbar-right { display: none; }
   .hero-quick-links { display: none; }
   .photo-grid { grid-template-columns: repeat(2,1fr); }
-  .guide-grid { grid-template-col      
+  .guide-grid { grid-template-columns: 1fr; }
+}
